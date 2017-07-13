@@ -1,0 +1,48 @@
+body {
+
+}
+
+.downarrow {
+    width: 0;
+    height: 0;
+    display: inline-block;
+    border-top: 12px #eee solid;
+    border-left: 6px transparent solid;
+    border-right: 6px transparent solid;
+}
+
+.uparrow {
+    width: 0;
+    height: 0;
+    display: inline-block;
+    border-bottom: 12px #eee solid;
+    border-left: 6px transparent solid;
+    border-right: 6px transparent solid;
+}
+
+#sortabletable {
+    border-collapse:collapse;
+    text-align: center;
+}
+
+#sortabletable th,#sortabletable td{
+    width: 100px;
+    border: 2px solid #ccc;
+
+}
+
+#sortabletable .freezetable{
+    position: fixed;
+    top: 10px;
+}
+
+#sortabletable th{
+    color: #eee;
+    background-color: #666;
+}
+
+#sortabletable td{
+    color: #444;
+    background-color: #eee;
+}
+

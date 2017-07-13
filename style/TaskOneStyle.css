@@ -1,0 +1,44 @@
+.check-module
+{
+    font-family: 'Microsoft Yahei';
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.check-module>b
+{
+    font-size: 1em;
+    vertical-align: -0.3em;
+}
+
+.check-module>[type="text"]
+{
+    box-sizing: border-box;
+    margin: 1px 10px 0 30px;
+    border-radius: 5px;
+    height: 2em;
+}
+
+.check-module>[type="button"]
+{
+    height: 2em;
+    border: 0;
+    border-radius: 5px;
+    background-color: royalblue;
+    color: white;
+    vertical-align: bottom;
+}
+
+.check-module>[type="button"]:active
+{
+    background-color: midnightblue;
+}
+
+.check-module>p
+{
+    margin: 5px 0 0 320px;
+    font-size: 0.8em;
+    color: gray;
+    text-align: left;
+}

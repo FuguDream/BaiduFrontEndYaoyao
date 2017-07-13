@@ -1,0 +1,57 @@
+.check-module
+{
+    font-family: 'Microsoft Yahei';
+    text-align: right;
+    width: 30em;
+    margin: 0 auto;
+}
+
+.check-module label>b
+{
+    font-size: 1em;
+    vertical-align: -0.2em;
+}
+
+.check-module label>input
+{
+    box-sizing: border-box;
+    width: 25em;
+    margin: 1px 10px 0 30px;
+    border-radius: 5px;
+    height: 2em;
+}
+
+.check-module label>p
+{
+    margin: 0.5em 0 1em 11em;
+    font-size: 0.8em;
+    color: gray;
+    text-align: left;
+}
+
+.check-module label>.passed
+{
+    border: 2px solid green;
+}
+
+.check-module label>.failed
+{
+    border: 2px solid red;
+}
+
+
+.check-module>[type="button"]
+{
+    margin: 2em 1em 0 0;
+    height: 2em;
+    width: 10em;
+    border: 0;
+    border-radius: 5px;
+    background-color: royalblue;
+    color: white;
+}
+
+.check-module>[type="button"]:active
+{
+    background-color: midnightblue;
+}

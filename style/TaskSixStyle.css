@@ -1,0 +1,90 @@
+/*页面滚动条不跳动*/
+body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+#menu {
+    height: 3000px;
+    text-align: center;
+}
+
+#btn {
+    width: 240px;
+    height: 135px;
+    border: 0;
+    outline: none;
+    background-color: darkseagreen;
+    color: floralwhite;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#btn:active {
+    background-color: seagreen;
+    color: darkgray;
+}
+
+#modal {
+    display: none;
+    width: 480px;
+    height: 270px;
+    background-color: lightsteelblue;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+#modal .title {
+    padding-left: 10px;
+    height: 40px;
+    line-height: 40px;
+    background-color: steelblue;
+}
+
+#modal .title .cancel {
+    width: 40px;
+    text-align: center;
+    background-color: royalblue;
+    cursor: pointer;
+    float: right;
+}
+
+#modal .content {
+    padding: 20px 10px 50px 10px;
+}
+
+#modal .command {
+    padding: 10px;
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#modal .command .cmdbtn {
+    margin: 10px;
+    width: 40px;
+    height: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#modal .command .cmdbtn:active {
+    background-color: lightslategray;
+    color: dimgray;
+}
+
+.mask {
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    background-color: slategray;
+    position: fixed;
+    top: 0;
+    left: 0;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>耀耀学院-任务三</title>
+</head>
+<body>
+<style>
+    form {
+        text-align: center;
+    }
+
+    div {
+        margin: 5px 0;
+    }
+</style>
+<form>
+    <div id="type">
+        <label><input id="radioschool" type="radio" name="type" value="student">在校生</label>
+        <label><input id="radiosocial" type="radio" name="type" value="social">非在校生</label>
+    </div>
+    <div id="student">
+        学校
+        <select id="city" name="city">
+            <option value="Beijing">北京</option>
+            <option value="Shanghai">上海</option>
+            <option value="Nanjing">南京</option>
+        </select>
+        <select id="school" name="school"></select>
+        <!--
+        <select id="bjschool" name="school">
+            <option value="PKU">北京大学</option>
+            <option value="THU">清华大学</option>
+        </select>
+        <select id="shschool" name="school">
+            <option value="FuDan">复旦大学</option>
+            <option value="SJTU">上海交通大学</option>
+            <option value="Tongji">同济大学</option>
+        </select>
+        <select id="njschool" name="school">
+            <option value="NJU">南京大学</option>
+            <option value="SEU">东南大学</option>
+        </select>
+        -->
+    </div>
+    <div id="social">
+        就业单位<input type="text" name="employer">
+    </div>
+</form>
+<script src="js/TaskThreeJs.js"></script>
+</body>
+</html>
